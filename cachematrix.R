@@ -1,7 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## create the special vector/ list that contains function
 
-## Write a short comment describing this function
+
+## A pair of functions which cache the inverse of a matrix.
+## This function produces a special "matrix" object which can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
   j <- NULL
@@ -18,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function calculates the inverse of the special "matrix" returned by makeCacheMatrix above.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
